@@ -1,0 +1,654 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    max-width: 100%;
+}
+.polarwise{
+    font-family: sans-serif;
+    width: 100%;
+    background-color: #d2c72d;
+}
+.container{
+    display: inline;
+    width: 100%;
+    max-width: 1200px;
+     
+}
+.firstpenal{
+    position:sticky;
+    top: 0;
+    padding-bottom: 5px;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #dce6c8;
+}
+.logopolar{
+    padding-top: 9px;
+    width: 30px;
+}
+.logopolar img{
+    width: 100%;
+}
+.firstline{
+    font-size: 20px;
+    padding-top: 5px;
+}
+.secondpenal{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.first a{ 
+    text-decoration: none;
+    color: black;
+    font-size: 1.09rem;
+}
+.secondpenal{
+    padding-top: 5px;
+    gap: 20px;
+ 
+}
+.svg a{ 
+    text-decoration: none;
+    font-size: 1.09rem;
+}
+.second a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.09rem;
+}
+.trustpilot a{
+     text-decoration: none;
+     color: black;
+}
+.secondcontainer{
+    width: 100%;
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);   
+}
+.navbar{
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.menu{
+    margin-top: 25px;
+    display: flex;
+    
+}
+.menu i{
+     text-decoration: none;
+     color: black;
+     margin-left: 20px;     
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px; 
+}
+.eu_xmark{
+    display: flex;
+    justify-content: space-between;
+ }
+ .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  
+  .sidenav a {
+    padding: 20px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #4a4d4c;
+    display: block;
+    transition: 0.3s;
+  }
+  #side_login{
+     padding-bottom: 20px;
+     margin: 20px 0 0 20px;
+     background-color: #86b7b8;
+     width: 100%;
+     max-width: 30%;
+  }
+  #side_login:hover{
+    background-color: #cbd5e0;
+  }
+  .closebtn{
+    width: 100%;
+  }
+  .closebtn span, .closebtn i{
+    font-size: 12px;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .dropdown_menu{
+      display: none;
+  }
+  .dropdown{
+      margin-left: 20px;
+      max-width: 30%;
+      display: flex;
+  }
+  .dropdown :hover .dropdown_menu{
+     display: block;
+  }
+  #lang option{
+     height: 50px;
+  }
+  .sub{
+    font-size:20px; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: black; 
+    cursor:pointer;
+  }
+.polarimage{
+       width: 100px;
+}
+.rightmenu{
+
+    display: flex;
+    max-width: 100%;
+}
+.login a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-size:  25px;
+}
+.login a:hover{
+    background-color:#cbd5e0;
+}
+.baglogo{
+    font-size: 25px;
+}
+.baglogo a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.baglogo a:hover{
+    background-color: #cbd5e0;
+}
+.shop a{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    background-color: #ffce00;
+    font-size:  25px;
+}
+.shop a:hover{
+    background-color: #cbd5e0;
+}
+.imagecon{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image{
+    margin: 10px 10px;
+    width: auto;
+    display: flex;
+    max-width: 100%;  
+}
+.imagecon h3{
+    color: #4a4d4c;
+    margin-top: 30px;
+    font-weight: lighter;
+     text-align: center;
+     font-size: 35px;
+}
+.pregraph{
+    margin-top: 20px;
+    margin-left: 27%;
+}
+.imagecon p{
+    color: #2d2d2d;
+    text-align: center;
+    max-width: 60%;
+    line-height: 2;
+    font-size: 20px;
+}
+.ocs{
+    gap: 10px;
+    margin: 30px;
+    justify-content: center;
+    display: flex;
+}
+.ocs a{
+    color: black;
+    text-decoration: none;
+}
+.excellent{
+    font-size: 20px;
+}
+#ocs,.reviews{
+     color: dimgrey;
+}
+.joincom{
+    line-height: 1.5;
+    margin: 50px;
+    text-align: center;
+}
+.joincom h2{
+    color: #4a4d4c;
+    margin-left:38%;
+    max-width: 25%;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.joincom p{
+    max-width: 100%;
+    font-size: 17px;
+    color: slategrey;
+}
+.join{
+    text-align: center;
+}
+.join button{
+    color: #414342;
+    background-color: #cad3d3;
+    /* background-color: #c8d2cf; */
+    padding: 15px;
+    border: none;
+    font-size: 25px;
+}
+.join button:hover{
+             background-color: rgb(237, 243, 248);
+}
+.img_videocon{
+    margin: 20px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+.textbox_con{   
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.maintextbox {
+         margin: 30px 0px;
+}
+.maintextbox div{
+    font-size: 22px;
+}
+.textbox{
+    padding-top:40px;
+    background-color: #dce6c8; 
+    /* margin: 20px 0px; */
+    margin-top: 90px;
+    margin-bottom: 20px;
+    padding-bottom: 80px;
+}
+.maintextbox h2{
+    color: #4a4d4c;
+    font-weight: lighter;
+    font-size: 40px;
+    margin: 20px 0px;
+}
+.textboxemail{
+    display: flex;
+    justify-content: center;
+}
+.textboxemail input{
+    margin-right: 1px;
+    outline:1px solid #c8d3d4;
+    border: none;
+    height: 50px;
+    width: 28%;
+}
+.textboxemail input:hover{
+    outline: 1px solid rgb(55, 55, 55);
+}
+.textboxemail input:focus{
+    outline: 1px solid #f6c66a;
+}
+.textboxemail button{
+    background-color: #c8d3d4;
+    font-size: large;
+    border: none;
+    height: 50px;
+    width: 130px;
+}
+.textboxemail button:hover{
+      background-color: #e2e6eb;
+}
+.footercon{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    padding-left: 15%;
+    background-color: #0e0f0f;
+    width: 100%;
+}
+.fl_footer{
+    font-weight: lighter;
+    font-size: 25px;
+    color: white;
+    display: flex;
+}
+.fl_footer h2{
+    font-weight: lighter;
+}
+.fl_footer img{
+    margin-left: 15px;
+    width: 70px;
+}
+.contact{
+    line-height: 1.5;
+    margin-top: 20px;
+    gap: 100px;
+    display: flex;
+}
+.cont{
+    gap: 100px;
+    margin: 0 20px;
+    display: flex;
+}
+.footerphone h2,.footeremail h2{
+    color: #4a4d4c;
+}
+.footerphone a, .footeremail a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.socialfooter{
+    margin-left: 50px;
+}
+.socialfooter a{
+    text-decoration: none;
+    margin-left: 5px;
+}
+.socialfooter i{
+    font-size: 50px;
+    color: white;
+}
+.socialfooter i:hover{
+        color: #f6c66a;
+}
+.service{
+  padding-top: 40px;
+  padding-bottom: 50px;
+    width: 35%;
+}
+.service a{
+    margin-left: 15px;
+    font-size: 20px;
+    line-height: 1.7;
+    text-decoration: none;
+    color: #585a59;
+}
+.service a:hover{
+    color: white;
+}
+.addr{
+    font-size: 20px;
+    margin: 10px;
+    color: #86b7b8;
+}
+
+
+/* using @media  */
+@media(max-width: 767px){
+    .firstline {
+        font-size: 15px;
+        padding-top: 9px;
+    }
+    .first a{
+        font-size: medium;
+    }
+    .svg img{
+        max-width: 18px;
+    }
+    .navbar{
+        justify-content: space-between;
+    }
+    .sub{
+        font-size: 20px;
+        color: black;
+    }
+    .sub a{
+        display: none;
+    }
+    .sidenav {
+        padding-top: 50px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+    .login,.shop{
+        display: none;
+    }
+    .polarimage{
+        max-width: 20%;
+    }
+    .second,.trustpilot,.subscript{
+        display: none;
+    }
+    .producttitle h2,.producttitle h3,.productdata p,.strongmist h3,.order label,.transpoter{
+        margin-left: 0px;
+    }
+    .addcartbtn{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .imagecon h3 {
+        font-size: 20px;
+    }
+    .productheader{
+        display: inline;
+    }
+    .slidercontainer,.product{
+        max-width: 100%;
+    }
+    #ocs,.excellent,.reviews{
+        display: none;
+    }
+   .pregraph{
+       margin: 10px;
+       max-width: 90%;
+    }  
+    .pregraph p{
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    .join{
+        margin: 20px 0px 50px 0px;
+    }
+    .joincom{
+        margin: 10px;
+    }
+    .joincom h2{
+        color: #0e0f0f;
+        font-size: 27px;
+        margin-left: 10px;
+        max-width: 100%;                             
+    }
+    .joincom P{
+        font-size: 18px;
+        max-width: 100%;
+    }
+    .join button{
+        padding: 10px 15px;
+        color: #0e0f0f;
+        font-size: 20px;
+    }
+    .img_videocon{
+        flex-wrap: wrap;
+    }
+    .imagecon p{
+        line-height: 1.5;
+        padding-left: 10px;
+        max-width: 900px;
+    }
+    .contact{
+        line-height: 1.5;
+        margin-top: 20px;
+        gap: 100px;
+        display: flex;
+    }
+    .cont {
+        gap: 100px;
+        margin: 0 20px;
+        display: flex;
+    }
+    .socialfooter i{
+            font-size: 30px;
+        }
+    .footercon {
+       padding-left: 20px;
+    }
+    .footerphone h2, .footeremail h2 {
+        font-size: 20px;
+    }
+    .socialfooter i{
+        display: inline;
+        font-size: 30px;
+    }
+     .maintextbox h2{
+        font-size: 30px; 
+    }
+    .maintextbox div{
+        font-size: 18px;
+    }
+    .time, .email{
+        font-size: 20px;
+     }
+     .fiy_icon{
+        padding-top: 10px;
+     }
+     .fiy_icon a{
+         font-size: 45px;
+     }
+     .contact_main a{
+        font-size: 20px;
+     }
+     .contact_main{
+        line-height: 1.5;
+        padding: 0px 5px;
+        justify-content: space-between;
+     }
+    .textboxemail button{
+        height: 40px;
+        width: 110px;
+    }
+    .textboxemail input{
+        height: 40px;
+        width: 45%;
+    }
+    .service{
+        width: 100%;
+        max-width: 80%;
+    }
+    .service a{
+        font-size: 15px;
+    }
+    .fl_footer {
+        font-size: 18px;
+    }
+    .fl_footer h2{
+        font-size: 20px;
+    }
+    .fl_footer img{
+        width: 50px;
+    }
+    .footerphone h2, .footeremail h2,.footerphone a, .footeremail a{
+        font-weight: lighter;
+        font-size: 12px;
+    }
+    .socialfooter i{
+        font-size: 30px;
+    }
+    .contact{
+        gap:20px;
+        display: flex;
+        flex-flow: column;
+    }
+    .cont{
+        display: flex;
+        justify-content: space-between;
+    }
+    .readnow a{
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+    .addr{
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width:400px){
+    .eu_xmark{
+        margin: 0px 20px 0px 20px;
+    }
+    .imagecon h3 {
+        font-size: 17px;
+    }
+    .pregraph p {
+        font-size: 15px;
+    }
+    .ocs a {
+        font-size: 15px;
+    }
+    .joincom h2 {
+        font-size: 20px;
+    }
+    .joincom P {
+        font-size: 15px;
+    }
+    .join button {
+        font-size: 15px;
+    }
+    .textboxemail button{
+        font-size: 15px;
+    }
+    .maintextbox h2{
+        font-size: 25px;
+    }
+    .maintextbox div{
+        font-size: 15px;
+    }
+    .textboxemail input,.textboxemail button {
+        height: 30px;
+    }
+    /* footer */
+    .fl_footer h2{
+        flex-wrap: wrap;
+        font-size: 30px;
+    }
+    .fl_footer img{
+        width: 90px;
+        margin-right: 30px;
+    }
+    .cont{
+        flex-direction: column;
+        gap: 0;
+    }
+    .footerphone h2, .footeremail h2, .footerphone a, .footeremail a{
+        font-size: 17px;
+    }
+}
+
+

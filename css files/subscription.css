@@ -1,0 +1,677 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    max-width: 100%;
+}
+.polarwise{
+    font-family: sans-serif;
+    width: 100%;
+    background-color: #d2c72d;
+}
+.container{
+    display: inline;
+    width: 100%;
+    max-width: 1200px;
+     
+}
+.firstpenal{
+    position: sticky;
+    top: 0;
+    padding-bottom: 5px;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #dce6c8;
+}
+.logopolar{
+    padding-top: 9px;
+    width: 30px;
+}
+.logopolar img{
+    width: 100%;
+}
+.firstline{
+    font-size: 20px;
+    padding-top: 5px;
+}
+.secondpenal{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.first a{ 
+    text-decoration: none;
+    color: black;
+    font-size: 1.09rem;
+}
+.secondpenal{
+    padding-top: 5px;
+    gap: 20px;
+ 
+}
+.svg a{ 
+    text-decoration: none;
+    font-size: 1.09rem;
+}
+.second a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.09rem;
+}
+.trustpilot a{
+     text-decoration: none;
+     color: black;
+}
+.secondcontainer{
+    width: 100%;
+    max-width: 100%;
+    background-color: white;   
+}
+.navbar{
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.menu{
+    margin-top: 25px;
+    display: flex;
+    
+}
+.menu i{
+     text-decoration: none;
+     color: black;
+     margin-left: 20px;     
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px; 
+}
+.eu_xmark{
+    display: flex;
+    justify-content: space-between;
+ }
+ .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  
+  .sidenav a {
+    padding: 20px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #4a4d4c;
+    display: block;
+    transition: 0.3s;
+  }
+  #side_login{
+     padding-bottom: 20px;
+     margin: 20px 0 0 20px;
+     background-color: #86b7b8;
+     width: 100%;
+     max-width: 30%;
+  }
+  #side_login:hover{
+    background-color: #cbd5e0;
+  }
+  .closebtn{
+    width: 100%;
+  }
+  .closebtn span, .closebtn i{
+    font-size: 12px;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .dropdown_menu{
+      display: none;
+  }
+  .dropdown{
+      margin-left: 20px;
+      max-width: 30%;
+      display: flex;
+  }
+  .dropdown :hover .dropdown_menu{
+     display: block;
+  }
+  #lang option{
+     height: 50px;
+  }
+  .sub{
+    font-size:20px; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: black; 
+    cursor:pointer;
+  }
+.polarimage{
+       width: 100px;
+}
+.rightmenu{
+
+    display: flex;
+    max-width: 100%;
+}
+.login a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-size:  25px;
+}
+.login a:hover{
+    background-color:#cbd5e0;
+}
+.baglogo{
+    font-size: 25px;
+}
+.baglogo a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.baglogo a:hover{
+    background-color: #cbd5e0;
+}
+.shop a{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    background-color: #ffce00;
+    font-size:  25px;
+}
+.shop a:hover{
+    background-color: #cbd5e0;
+}
+.manimg img{
+   width: 100%;
+}
+.manimg{
+    margin: 20px 20px;
+    width: auto;
+    max-width: 100%;
+}
+.multiline{
+    color: rgb(83, 84, 84);
+    margin: 30px;
+    margin-left: 34%;
+    width: 40%;
+    line-height: 1.9;
+}
+.multiline h3{
+    font-weight: lighter;
+    font-size: 30px;
+}
+.multiline p{
+    font-size: 18px;
+}
+.faq{
+ color: rgb(83, 84, 84);
+ line-height: 2;
+ font-size: 18px;
+ text-align: center;
+}
+.faq h3{
+    font-weight: lighter;
+    font-size: 30px;
+}
+.faq button{
+    padding: 5px;
+    margin: 20px 2px;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    height: 45px;
+    background-color: #c8d3d4;
+}
+.delivery{
+    width: 10%;
+}
+.subscription{
+    width: 12%;
+}
+.delivery:focus, .subscription:focus{
+    background-color: #ffce00;
+}
+.delivery:hover, .subscription:hover{
+    background-color: #cbd5e0;
+}
+.ufq{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    width: 55%;
+    margin: 40px 330px;
+}
+#fquestion{
+   margin-bottom: 5px;
+   border:1px solid #c8d3d4;
+}
+.fques{
+    height: 70px;
+    font-size: 25px;
+    padding: 20px 10px;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.fques:hover {
+    border: 1px solid #f6c66a;
+}
+.fques i{
+    transition-duration: 0.5s;
+}
+.fques:hover i{
+    transform: rotate(90deg);
+ }
+#fquestion .fans{
+    font-size: 20px;
+    display: none;
+    padding: 10px 10px;
+}
+#fquestion:hover .fans{
+    display: inline-block;
+}
+.productcon{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-between;
+    width: 100%;
+}
+.promain{
+    margin: 0px 10px;
+    outline: 1px solid rgb(208, 210, 227);
+    width: 22%;
+}
+.pro1{
+    color: #292b2b;
+    text-decoration: none;
+    width: 25%;
+}
+.productcon_img{
+    transition: transform .2s;
+    width: auto;
+    overflow: hidden !important;
+}
+.pro1:hover img {
+    transform: scale(1.1);
+}
+.pro1:hover .pro_card{
+    background-color: #cbd5e0;
+}
+.product_content_lines{
+    margin: 0px 5px;
+}
+.productpriceline1,.productpriceline2{
+    text-align: end;
+    flex-flow: row;
+    font-size: 20px;
+    font-weight: bold;
+}
+.productline{
+    margin: 0px 5px;
+    gap: 10px;
+    display: flex;
+}
+.productline h2{
+    margin-right: 40px;
+    font-size: 20px;
+    width: 200px;
+}
+.product_content_lines{
+    margin-top: 2px;
+    color: #86b7b8;
+}
+.productline1{
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.productline2{
+   font-size: 18px;
+   line-height: 25px;
+}
+.productpriceline1{
+    color: #f6c66a;
+    text-decoration: line-through;
+}
+.amountbtn{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+.show_more,.add{
+    cursor: pointer;
+    font-size: 18px;
+    height: 45px;
+    border: none;
+}
+.show_more{
+    width: 100px;
+    background-color:#cbd5e0;
+}
+.add{
+    width: 90px;
+    background-color:#f6c66a;
+}
+.footercon{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    padding-left: 15%;
+    background-color: #0e0f0f;
+    width: 100%;
+}
+.fl_footer{
+    font-weight: lighter;
+    font-size: 25px;
+    color: white;
+    display: flex;
+}
+.fl_footer h2{
+    font-weight: lighter;
+}
+.fl_footer img{
+    margin-left: 15px;
+    width: 70px;
+}
+.contact{
+    line-height: 1.5;
+    margin-top: 20px;
+    gap: 100px;
+    display: flex;
+}
+.cont {
+    gap: 100px;
+    margin: 0 20px;
+    display: flex;
+}
+.footerphone h2,.footeremail h2{
+    color: #4a4d4c;
+}
+.footerphone a, .footeremail a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.socialfooter{
+    margin-left: 20px;
+}
+.socialfooter a{
+    text-decoration: none;
+    margin-left: 5px;
+}
+.socialfooter i{
+    font-size: 50px;
+    color: white;
+}
+.socialfooter i:hover{
+        color: #f6c66a;
+}
+.service{
+  padding-top: 40px;
+  padding-bottom: 50px;
+    width: 35%;
+}
+.service a{
+    margin-left: 15px;
+    font-size: 20px;
+    line-height: 1.7;
+    text-decoration: none;
+    color: #585a59;
+}
+.service a:hover{
+    color: white;
+}
+.addr{
+    font-size: 20px;
+    margin: 10px;
+    color: #86b7b8;
+}
+@media(max-width: 767px){
+    .firstline {
+        font-size: 15px;
+        padding-top: 9px;
+    }
+    .first a{
+        font-size: medium;
+    }
+    .svg img{
+        max-width: 18px;
+    }
+    .navbar{
+        justify-content: space-between;
+    }
+    .sub{
+        font-size: 20px;
+        color: black;
+    }
+    .sub a{
+        display: none;
+    }
+    .sidenav {
+        padding-top: 50px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+    .login,.shop{
+        display: none;
+    }
+    .polarimage{
+        max-width: 20%;
+    }
+    .second,.trustpilot,.subscript{
+        display: none;
+    }
+    .producttitle h2,.producttitle h3,.productdata p,.strongmist h3,.order label,.transpoter{
+        margin-left: 0px;
+    }
+    .addcartbtn{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .manimg{
+        margin: 5px 10px;
+    }
+    .multiline{
+        line-height: 1.6;
+        margin: 20px 10px;
+        margin-left: 4%;
+        width: auto;
+        max-width: 90%;
+    }
+    .multiline h3 {
+        color: black;
+        font-size: 22px;
+    }
+     .multiline p {
+        color: black;
+        font-size: 17px;
+    }
+    .ufq{
+        margin: 40px 100px;
+    }
+    .fques{
+        height: 60px;
+        font-size: 17px;
+    }
+     .faq{
+        font-size: 19px;
+     }
+     .faq h3{
+        font-size: 20px;
+     }
+     .faq p{
+        font-size: 12px;
+     }
+     .promain{
+        width: 70%;
+     }
+     .faq button{
+        font-size: 15px;
+     }
+     .delivery{
+        width: 20%;
+     }
+     .subscription{
+        width: 25%;
+     }
+    .footercon {
+        padding-left: 20px;
+     }
+     .text1{
+         margin: 0px 20px;
+         max-width: 90%;
+     }
+     .footercon {
+        padding-left: 20px;
+     }
+     .footerphone h2, .footeremail h2 {
+        font-size: 20px;
+    }
+    .socialfooter i{
+        display: inline;
+        font-size: 30px;
+    }
+     .maintextbox h2{
+        font-size: 30px; 
+    }
+    .maintextbox div{
+        font-size: 18px;
+    }
+    .time, .email{
+        font-size: 20px;
+     }
+     .fiy_icon{
+        padding-top: 10px;
+     }
+     .fiy_icon a{
+         font-size: 45px;
+     }
+     .contact_main a{
+        font-size: 20px;
+     }
+     .contact_main{
+        line-height: 1.5;
+        padding: 0px 5px;
+        justify-content: space-between;
+     }
+    .textboxemail button{
+        height: 40px;
+        width: 110px;
+    }
+    .textboxemail input{
+        height: 40px;
+        width: 45%;
+    }
+    .service{
+        width: 100%;
+        max-width: 80%;
+    }
+    .service a{
+        font-size: 15px;
+    }
+    .fl_footer {
+        font-size: 18px;
+    }
+    .fl_footer h2{
+        font-size: 20px;
+    }
+    .fl_footer img{
+        width: 50px;
+    }
+    .footerphone h2, .footeremail h2,.footerphone a, .footeremail a{
+        font-weight: lighter;
+        font-size: 12px;
+    }
+    .socialfooter i{
+        font-size: 30px;
+    }
+    .contact{
+        gap:20px;
+        display: flex;
+        flex-flow: column;
+    }
+    .cont{
+        display: flex;
+        justify-content: space-between;
+    }
+    .readnow a{
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+    .addr{
+        font-size: 12px;
+    }
+    
+ }
+ @media(max-width:400px){
+    .multiline h3 {
+        font-size: 17px;
+    }
+    .multiline p {
+        font-size: 13px;
+    }
+    .productline h2{
+        margin-right: 0px;
+    }
+    .faq button {
+        font-size: 12px;
+        height: 30px;
+    }
+    .fques {
+        height: 50px;
+        font-size: 12px;
+    }
+    .eu_xmark{
+        margin: 0px 70px 0px 20px;
+     }
+    .textboxemail button{
+        font-size: 15px;
+    }
+    .maintextbox h2{
+        font-size: 25px;
+    }
+    .maintextbox div{
+        font-size: 15px;
+    }
+    .textboxemail input,.textboxemail button {
+        height: 30px;
+    }
+    /* footer */
+    .fl_footer h2{
+        flex-wrap: wrap;
+        font-size: 30px;
+    }
+    .fl_footer img{
+        width: 90px;
+        margin-right: 30px;
+    }
+    .cont{
+        flex-direction: column;
+        gap: 0;
+    }
+    .footerphone h2, .footeremail h2, .footerphone a, .footeremail a{
+        font-size: 17px;
+    }
+}
